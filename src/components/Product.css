@@ -1,0 +1,46 @@
+
+#potato,
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.product {
+  margin-bottom: 70px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: white;
+}
+
+.product img {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  margin-right: 30px;
+  align-items: center;
+  left: 15px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+  transition: ease-in-out 0.2s;
+  opacity: 0.9;
+}
+.product img:hover{
+  opacity: 1;
+  transform: translateY(-10px);
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 70px; 
+  color:black;
+}
+.product-details h4{
+  font-size: 17px;
+}
+.product-details {
+  margin-top: 20px;
+}

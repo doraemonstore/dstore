@@ -1,0 +1,21 @@
+.menu ul {
+    list-style-type: none;
+  }
+.menu li {
+    float: left;
+    padding-right: 32px;
+    padding-left: 32px;
+    display: block;
+    line-height: 80px;
+  }
+.link-menu-s{
+    text-decoration: none;
+    color:white;
+}
+.link-menu-s li{
+    transition: ease-in-out 0.2s;
+}
+.menu li:hover{
+    transform:translateY(-5px);
+    color: white;
+}

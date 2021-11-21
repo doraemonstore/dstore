@@ -1,0 +1,17 @@
+.carousel{
+    width: 50%;
+    margin: auto;
+}
+.carousel-inner img{
+    width: 200px;
+}
+.carousel-control-prev-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/l-arrow.png");
+}
+.carousel-control-next-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/r-arrow.png");
+}
