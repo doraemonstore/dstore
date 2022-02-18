@@ -55,28 +55,24 @@ function About(props) {
         </p>
         <div className="about-part-3-img">
           <figure class="snip0015">
-            <img src={target1} alt="sample38" />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample38.jpg" alt="sample38"/>
             <figcaption>
               <h2>Đồ lưu niệm</h2>
             </figcaption>
           </figure>
           <figure class="snip0015">
-            <img src={target2} alt="sample38" />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample38.jpg" alt="sample38"/>
             <figcaption>
               <h2>Hàng Nhật Bản order</h2>
             </figcaption>
           </figure>
           <figure class="snip0015">
-            <img src={target3} alt="sample38" />
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample38.jpg" alt="sample38"/>
             <figcaption>
               <h2>Phụ kiện guitar</h2>
             </figcaption>
           </figure>
         </div>
-      </div>
-      <div className="about-part-4">
-        <img src={logo} />
-        <p>WELCOME TO DORAEMON STORE</p>
       </div>
     </div>
   );
