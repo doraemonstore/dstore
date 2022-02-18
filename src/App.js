@@ -19,7 +19,8 @@ function App(props) {
           <Nav />
         </div>
       </div>
-      <Route path="/dstore" exact component={Home} />
+      <Route path="/dstore" exact component={Home}/>
+      <Route path="/" exact component={Home}/>
       <Route path="/about" component={About} />
       <Route path="/pro-ui" component={ProductUI} />
       <Route path="/fjapan" component={Japan} />
