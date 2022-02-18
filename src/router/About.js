@@ -29,7 +29,7 @@ function About(props) {
       </div>
       <h3>TẠO DỰNG LÊN DORAEMON STORE</h3>
       <div className="about-part-2">
-        <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/252903769_417666170034999_3793009393430792657_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Wn8pqM5uJ3AAX_STX7y&_nc_ht=scontent.fsgn5-10.fna&oh=dab92a96d9f23fa8cb33579fd255cfc1&oe=619F601A" />
+        <img src="https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/272686823_466915808443368_7912643170323685426_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=U1gSaGqV68AAX-92I8Q&tn=F542LKXcbeaJPId2&_nc_ht=scontent-sin6-3.xx&oh=00_AT92Im5KrbMy4bq4yfjFYBllv_o7utYT_uHe8Aw5ldtyLQ&oe=621406FA"/>
         <p>
           Perhaps you have wondered how predictable machines like computers can
           generate randomness. In reality, most random numbers used in computer
@@ -55,19 +55,19 @@ function About(props) {
         </p>
         <div className="about-part-3-img">
           <figure class="snip0015">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample38.jpg" alt="sample38"/>
+          <img src={target1} alt="sample38"/>
             <figcaption>
               <h2>Đồ lưu niệm</h2>
             </figcaption>
           </figure>
           <figure class="snip0015">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample38.jpg" alt="sample38"/>
+          <img src={target2} alt="sample38"/>
             <figcaption>
               <h2>Hàng Nhật Bản order</h2>
             </figcaption>
           </figure>
           <figure class="snip0015">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample38.jpg" alt="sample38"/>
+          <img src={target3} alt="sample38"/>
             <figcaption>
               <h2>Phụ kiện guitar</h2>
             </figcaption>
